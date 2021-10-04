@@ -1,8 +1,8 @@
 import React from 'react';
-import Login from './src/Login';
-import { ProfileScreen } from './src/ProfileScreen';
-import { RecorverPass } from './src/RecorverPass';
-import { RegistrationScreen } from './src/RegistrationScreen';
+import Login from './src/view/Login';
+import { ProfileScreen } from './src/view/ProfileScreen';
+import { RecorverPass } from './src/view/RecorverPass';
+import { RegistrationScreen } from './src/view/RegistrationScreen';
 
 export default function App() {
   return (
