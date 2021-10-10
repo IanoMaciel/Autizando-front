@@ -1,13 +1,17 @@
 import React from "react";
-import { View, StyleSheet, TextInput, Text, TouchableOpacity } from "react-native";
+import { View, Image, StyleSheet, TextInput, Text, TouchableOpacity } from "react-native";
 
 export function RecorverPass(){
     return(
 
-    <View style={styles.container}>
+        <View style={styles.container}>
 
-    <Text style = {styles.logo}>LOGO DE NOVO</Text>
-    <Text style = {{fontWeight: 'bold', paddingTop: 140 }}>Esqueci minha senha</Text>
+
+            <Image
+                style={styles.logo}
+                source={require('../img/Logo-png.png')}
+            />
+    <Text style = {{fontWeight: 'bold', paddingTop: 90 }}>Esqueci minha senha</Text>
     <Text style = {{paddingTop: 26 }}>Informe o e-mail de recuperação</Text>
 
     <TextInput
@@ -33,6 +37,8 @@ const styles = StyleSheet.create({
 
 logo: {
     marginTop: 90,
+    width: 90,
+    height: 90
 
 },
 
