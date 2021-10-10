@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Image, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { Check } from '../components/Check';
 
-
 export function RegistrationScreen()
 {
     return(
@@ -10,7 +9,7 @@ export function RegistrationScreen()
             
             <Image
                 style={styles.logo}
-                source={require('./img/Logo-png.png')}
+                source={require('../img/Logo-png.png')}
             />
             <Text style={{fontWeight:'bold', paddingTop:70}}>Seja bem vindo(a)</Text>
             <Text style={{marginTop: 10, paddingBottom: 50}}>Cadastra-se</Text>
