@@ -6,10 +6,10 @@ import { RegistrationScreen } from './src/view/RegistrationScreen';
 
 export default function App() {
   return (
-    //<Login/>
+    <Login/>
     //<RecorverPass/>
     //<RegistrationScreen/>
-    <ProfileScreen/>
+    //<ProfileScreen/>
   );
 }
 

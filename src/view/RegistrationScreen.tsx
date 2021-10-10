@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
-import { Check } from './components/Check';
+import { Check } from '../components/Check';
 
 
 export function RegistrationScreen()
