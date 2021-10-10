@@ -10,7 +10,7 @@ export function ProfileScreen()
             <View style={styles.profile}>
                 <Image
                     style={styles.profilePicture}
-                    source={require('./img/iano_perfil.jpeg')}
+                    source={require('../img/iano_perfil.jpeg')}
                 />
                 
                 <View style={styles.profileSobre}>
