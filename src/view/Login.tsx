@@ -1,12 +1,17 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Text, StyleSheet, View, TextInput, Button, TouchableOpacity } from "react-native";
+import { Text, StyleSheet, Image, View, TextInput, Button, TouchableOpacity } from "react-native";
 
 export default function Login(){
     return(
 
         <View style={styles.container}>  
-            <Text style = {styles.logo}>LOGO</Text>
+
+            <Image
+                style={styles.logo}
+                source={require('../img/Logo-png.png')}
+            />
+
             <Text style= {{fontWeight: 'bold', paddingTop: 70 }}>Seja bem vindo (a)</Text>
             <Text style={{paddingBottom: 50, marginTop: 20}}>Faça login</Text>
         
@@ -56,7 +61,8 @@ const styles = StyleSheet.create({
 
     logo: {
         marginTop: 90,
-        
+        width: 90,
+        height: 90
     },
 
     InputLogin: {
