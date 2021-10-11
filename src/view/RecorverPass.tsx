@@ -22,6 +22,12 @@ export function RecorverPass(){
     <TouchableOpacity style = {styles.ButtonSend}>
     <Text style = {{color:'#FFF', fontWeight: 'bold'}}>ENVIAR</Text>
     </TouchableOpacity>
+    
+    
+    <TouchableOpacity style = {styles.ButtonBack}>
+    <Text style = {{ color: white }}>Voltar</Text>
+    </TouchableOpacity>
+
 
     </View>
 
@@ -67,6 +73,12 @@ ButtonSend: {
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 20,
+},
+
+ButtonBack: {
+    borderRadius: 30,
+
+
 },
 
 });

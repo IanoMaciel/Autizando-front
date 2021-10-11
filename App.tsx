@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExpertScreen } from './src/view/ExpertScreen';
+import { ExpertScreen } from './src/view/FindExpertScreen';
 import Login from './src/view/Login';
 import { ProfileScreen } from './src/view/ProfileScreen';
 import { RecorverPass } from './src/view/RecorverPass';
