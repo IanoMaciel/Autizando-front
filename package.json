@@ -15,7 +15,11 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
     "react-native-web": "~0.13.12",
+<<<<<<< HEAD
     "expo-linear-gradient": "~9.2.0"
+=======
+    "yet": "^0.1.0"
+>>>>>>> 8a7587fb19eb5007e9badcccef9f1eb417e94641
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
